@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['username'])) {
-    echo '<div>' . $_SESSION['username'] . '</div>';
+    echo '<div class="login">' . $_SESSION['username'] . '</div>';
 } else {
     echo '<div class="login" id="login">请登录</div>';
 }
@@ -20,7 +20,7 @@ if (isset($_SESSION['username'])) {
 
     <link rel="shortcut icon" href="mall.ico" />
 
-    <link href="school.css?v=0094" rel="stylesheet" type="text/css" />
+    <link href="school.css?v=0004" rel="stylesheet" type="text/css" />
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -38,11 +38,70 @@ if (isset($_SESSION['username'])) {
     <div class="b10">
         选择一个Room
     </div>
-    <div class="b20">
-        <div class="room">
-            Room1
+    <div class="b20 row">
+        <div class="col-md-2">
+            <div class="room">
+                Room1
 
+            </div><br>
+            <div class="room">
+                Room1
+
+            </div>
         </div>
+        <div class="col-md-2">
+            <div class="room">
+                Room1
+
+            </div><br>
+            <div class="room">
+                Room1
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="room">
+                Room1
+
+            </div><br>
+            <div class="room">
+                Room1
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="room">
+                Room1
+
+            </div><br>
+            <div class="room">
+                Room1
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="room">
+                Room1
+
+            </div><br>
+            <div class="room">
+                Room1
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="room">
+                Room1
+
+            </div>
+            <br>
+            <div class="room">
+                Room1
+
+            </div>
+        </div>
+        
+        
     </div>
     <script type="text/javascript" src="school.js"></script>
 </body>
