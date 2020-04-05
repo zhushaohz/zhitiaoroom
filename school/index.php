@@ -29,10 +29,10 @@ if (isset($_SESSION['username'])) {
 <body>
     <div class="b0">
         <ul class="nav justify-content-end">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="../login/">登录</a></li>
+            <li class="nav-item"><a class="nav-link" href="../signup/">注册</a></li>
+            <li class="nav-item"><a class="nav-link" href="../user/">账户</a></li>
+            <li class="nav-item"><a class="nav-link" href="../help/">教程</a></li>
         </ul>
     </div>
     <div class="b10">
